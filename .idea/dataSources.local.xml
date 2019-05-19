@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="postgres@localhost" uuid="228393a9-a6a1-4002-b12a-6ce6e6df0632">
+      <database-info product="PostgreSQL" version="11.3 (Ubuntu 11.3-1.pgdg19.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="11.3" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>mehrdad</user-name>
+    </data-source>
+    <data-source name="Rails Melk: development" uuid="0b005d17-a493-44b3-a942-b7225c402ab6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>melk</user-name>
+    </data-source>
+    <data-source name="Rails Melk: test" uuid="9e98b547-e772-48a8-ad54-799bea83c3e2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+    </data-source>
+    <data-source name="Rails Melk: production" uuid="be266721-68a3-4b22-a057-6e4c354bc4fb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>mehrdad</user-name>
+    </data-source>
+  </component>
+</project>
