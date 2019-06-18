@@ -3,11 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title> سامانه جستجوی ملک </title>
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
 
 </head>
 <body>
-<h1 class="title is-1">mehrdad</h1>
-<h2 class="subtitle is-2">Khishtandar</h2>
+<script>
+    $('.owl-carousel').owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+<div class="owl-carousel owl-theme">
+  <div class="item"><h4>1</h4></div>
+  <div class="item"><h4>2</h4></div>
+  <div class="item"><h4>3</h4></div>
+  <div class="item"><h4>4</h4></div>
+  <div class="item"><h4>5</h4></div>
+</div>
+<script>$(document).ready(function(){
+    $('.owl-carousel').owlCarousel();
+});</script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        rtl:true,
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+</script>
 
 </body>
+
+
+<footer>
+
+</footer>
 </html>
